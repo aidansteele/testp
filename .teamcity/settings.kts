@@ -40,9 +40,9 @@ object Buildconf : BuildType({
     }
     
     features {
-		BuildFeature {
+		feature {
 			type = "com.glassechidna.teamcity.awsrole.BuildFeature"
-			this.param("roleArn", "")
+			param("roleArn", "arn:aws:iam::046921848075:role/Developer")
 		}
 	}
 })
